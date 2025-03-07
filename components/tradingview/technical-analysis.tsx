@@ -5,6 +5,7 @@ import { useRef, useEffect } from "react";
 
 const createScript = (symbol: string) => {
   const script = document.createElement("script");
+  // https://www.tradingview.com/widget/technical-analysis/
   script.src =
     "https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js";
   script.async = true;
@@ -49,7 +50,6 @@ export function TechnicalAnalysis() {
   const containerSOL = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    // https://www.tradingview.com/widget/technical-analysis/
     appendScriptToContainer(containerBTC, "BINANCE:BTCUSDT");
     appendScriptToContainer(containerETH, "BINANCE:ETHUSDT");
     appendScriptToContainer(containerSOL, "BINANCE:SOLUSDT");
