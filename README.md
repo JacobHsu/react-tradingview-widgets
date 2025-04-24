@@ -122,3 +122,11 @@ CCI指標的分析區間集中在﹣100——﹢100之間，
 ```
   
 
+  ## References
+
+[Advanced Real-Time Chart Widget](https://www.tradingview.com/widget-docs/widgets/charts/advanced-chart/)
+[內建指標](https://tw.tradingview.com/support/folders/43000587405/)  
+[肯特納通道(Keltner Channels, KC)](https://tw.tradingview.com/support/solutions/43000502266/)  
+[相對強弱指標(RSI)](https://tw.tradingview.com/support/solutions/43000502338/) 
+[MACD(平滑異同移動平均線)](https://tw.tradingview.com/support/solutions/43000502344/)   
+[動向指標(Directional Movement, DMI)](https://tw.tradingview.com/support/solutions/43000502250/)
