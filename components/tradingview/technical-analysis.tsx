@@ -10,7 +10,7 @@ const createScript = (symbol: string) => {
     "https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js";
   script.async = true;
   script.innerHTML = JSON.stringify({
-    interval: "1m",
+    interval: "15m",
     width: 425,
     isTransparent: false,
     height: 380,
